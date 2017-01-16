@@ -462,20 +462,8 @@ a.mit-admissions-link:hover {
 section h2 {
   font-weight: 400;
 }
-section.section2, section.section4 {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  padding: 250px 0;
-}
 section.section2 {
   background-image: url('../img/bg2.jpg');
-  padding: 50px 0;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
 }
 @media (min-width: 768px) {
   section.section2 {
@@ -484,40 +472,8 @@ section.section2 {
 }
 section.section4 {
   background-image: url('../img/bg4.jpg');
-  padding: 50px 0;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
 }
-section.section2 .section2-content, section.section4 .section4-content {
-  position: relative;
-  z-index: 1;
-}
-section.section2 .section2-content h2 {
-  color: white;
-  font-weight: 400;
-}
-section.section2 .section2-content p {
-  color: white;
-  text-align: justify;
-}
-section.section4 .section4-content h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 36px;
-}
-/*
-@media (min-width: 768px) {
-  section.section2 .section2-content h2 {
-    font-size: 72px;
-  }
-  section.section4 .section4-content h2 {
-    font-size: 72px;
-  }
-}
-*/
-section.section2 .overlay, section.section4 .overlay {
+section .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -556,38 +512,24 @@ img.header-img.fixed {
   background: linear-gradient(to left, #e52d27 , #b31217);
   position: relative;
   color: #fff;
-  padding: 100px 50px;
-}
-.section5-img {
-    position: absolute; 
-    bottom: 0px;
-    width: 100%;
 }
 .section5 {
-  position: relative;
-  color: #fff;
-  background: #2595FF; 
+  background: #457fca;
+  background: -webkit-linear-gradient(to left, #457fca , #5691c8);
+  background: linear-gradient(to left, #457fca , #5691c8);
 }
-/*
-.section3-img {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-*/
 .section1 {
   background: #ffb347;
   background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33);
   background: linear-gradient(to left, #ffb347 , #ffcc33);
-  padding: 50px 0;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
 }
+/*
 .section5 {
   background: #2595ff;
-   background: -webkit-linear-gradient(to left, #2595ff,#007cf1);
+  background: -webkit-linear-gradient(to left, #2595ff,#007cf1);
   background: linear-gradient(to left, #2595ff,#007cf1);
 }
+*/
 .margin-50-25 {
   margin: 50px 25px;
 }
@@ -625,7 +567,7 @@ section.mit-intro .badges .badge-link img {
 .mit-intro {
   padding: 0;
   border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  /*border-bottom: 1px solid #fff;*/
 }
 .mit-intro-container {
   padding: 100px 50px;
@@ -645,41 +587,37 @@ section.mit-intro .badges .badge-link img {
 .mit-intro-container .intro-text {
   font-size: x-large;
 }
-.section1-content .container .img-container {
-  text-align: center;
-  margin: 50px 0;
-}
-.section1-content .container .img-container img {
-  width: 200px;
-  border-radius: 100px;
-  border: 3px solid #fff;
-}
-.section3-img {
-  max-width: 300px;
-  width: 100%;
-}
 .white-font {
   color: #fff;
 }
-section.section5 {
+section {
   position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  padding: 250px 0;
-}
-section.section5 {
-  background-image: url('../img/bg5_.png');
   padding: 50px 0;
   border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;                                                                                                                                             
+  background-size: cover;
+/*  border-bottom: 1px solid #fff; */
 }
-.section5-text {
-  max-width: 800px;
-  margin: auto;
+.section5 {
+  border-bottom: 1px solid #232323;
 }
 .medium-font {
   font-size: medium;
+}
+
+/* Abstractions */
+.section-content { 
+  position: relative;
+  z-index: 1;
+}
+.section-content h2 {
+  color: white;
+  font-weight: 400;
+}
+.section-content p {
+  color: white;
+  text-align: justify;
+}
+.accent-image-container {
+  transform: translateY(50%);
+  text-align: center;
 }

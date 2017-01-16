@@ -17,13 +17,15 @@
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-  <!--<link href="dist/all.min.css" rel="stylesheet">-->
+  <link href="dist/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
+  <!--
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
   <link href="css/new-age.css" rel="stylesheet">
+  -->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,23 +76,19 @@
   </section>
 
   <section class="section1">
-    <div class="section-content">
+    <div class="section1-content">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
-            <h2>Leadership and an ability to inspire others</h2>
-            <p>A favorite quote of mine is from our late President, John F. Kennedy, who said: “Those who dare to fail miserably can achieve greatly.” Those words have become a part of my ethos over the years, defining my approach to leadership. Opportunities for me to lead have come in many forms: as a team member, through volunteering and mentorship, and even managing a team of my own directly. In all scenarios, I strive to create an environment that fosters bold ideas and innovative thinking, challenging people to not only push boundaries, but redefine boundaries in realizing their full potential.</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 hidden-xs accent-image-container">
-            <img class="accent-image" src="img/lightbulb.png" />
-          </div>
+        <h2 class="text-center">Leadership and an ability to inspire others</h2>
+        <div class="img-container"> 
+          <img src="img/bg1.jpg" />
         </div>
+        <p class="text-justify">A favorite quote of mine is from our late President, John F. Kennedy, who said: “Those who dare to fail miserably can achieve greatly.” Those words have become a part of my ethos over the years, defining my approach to leadership. Opportunities for me to lead have come in many forms: as a team member, through volunteering and mentorship, and even managing a team of my own directly. In all scenarios, I strive to create an environment that fosters bold ideas and innovative thinking, challenging people to not only push boundaries, but redefine boundaries in realizing their full potential.</p>
       </div>
     </div>
   </section>
 
   <section class="section2">
-    <div class="section-content">
+    <div class="section2-content">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
@@ -105,55 +103,6 @@
     <div class="overlay"></div>
   </section>
 
-  <section class="section3">
-    <div class="section-content">
-      <div class="container">
-        <div class="row">
-           <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
-            <h2>Intellectual curiosity and analytical strength</h2>
-          <p class="text-justify">Three experiences from my childhood helped forge me into who I am today: my first job volunteering at the local library, my first computer, and spending hours buried in encyclopedias and books about science and technology. This combination built a strong work ethic and an insatiable thirst for knowledge into my DNA. I have an innate curiosity that pushes me to seek out new information and understand the world around me.</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 hidden-xs accent-image-container">
-            <img class="accent-image" src="img/gears.png" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section4">
-    <div class="section-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
-          </div>
-          <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
-            <h2>Creativity to generate new solutions to existing challenges</h2> 
-            <p>fter concentrating in Manufacturing for my Mechanical Engineering degree, a mindset of continuous improvement was wired into my brain. It was further amplified working in factories implementing Lean/6Sigma in my first full-time job. I feel fortunate to have gained those skills early in my career, and have been able to bring an eye for optimization to the other industries and job functions I have been a part of since. My belief is that innovation and creativity come in many forms, and it is important to question the status quo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="overlay"></div>
-  </section>
-
-  <section class="section5">
-    <div class="section-content">
-      <div class="container">
-        <div class="row">
-           <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
-            <h2>Growth in both professional and personal endeavors</h2>
-            <p class="text-justify">I have always found comfort in the discomfort of starting down a new path, be it an ambiguous task at work or a new life goal that I feel will advance me as a person. I try to seek out initiatives that are difficult, balancing them with optimism and energy. My career path has been dynamic and afforded me with tremendous learning opportunities and left me with a diverse skillset. Outside of work, I spend time coding and working on side projects, traveling the world, and becoming a better, wiser version of myself. The ultimate next step, and a dream of mine, is the pursuit of an MBA at MIT Sloan.</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 hidden-xs accent-image-container">
-            <img class="accent-image" src="img/chart.png" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!--
   <section class="section3">
     <div class="section3-content">
       <div class="row">
@@ -183,6 +132,7 @@
     </div>
     <div class="overlay"></div>
   </section>
+
   <section class="section5">
     <div class="section5-content">
       <div class="container">
@@ -193,7 +143,7 @@
       </div>
     </div>
   </section>
--->
+
   <section id="contact" class="contact">
     <div class="container">
       <h2>Thank you for your time!</h2>
